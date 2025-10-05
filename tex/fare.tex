@@ -1,0 +1,72 @@
+\documentclass{article} % Standard layout
+\usepackage[paper=a4paper,margin=20mm]{geometry} % A4 with 20mm margin. Use "showframe" to show borders
+\usepackage{capt-of} % Simple custom captions
+\usepackage{lmodern} % Modern Latin font family for scalable fonts
+
+\usepackage{draftwatermark}
+\SetWatermarkText{github.com/jlmurdoch}
+\SetWatermarkFontSize{64pt}
+\SetWatermarkColor[gray]{0.85}
+
+\newcommand{\baseverb}{f}
+
+\begin{document}
+    \section* {\baseverb{}are}
+    
+    \begin{center}
+        \captionof{table}{modo indefiniti - no subject}
+        \begin{tabular}{llll}
+            \textbf{infinito} & \textbf{participio presente} & \textbf{participio passato} & \textbf{gerundio} \\
+            \hline
+            \baseverb{}are & \baseverb{}acente & \baseverb{}atto & \baseverb{}acendo \\
+        \end{tabular}
+
+        \captionof{table}{indicativo - real, actual}
+        \begin{tabular}{llllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{present} & \textbf{passato prossimo} & \textbf{futuro} & \textbf{imperfetto} \\
+            \hline
+            I                   & io        & \baseverb{}accio       & ho \baseverb{}atto      & \baseverb{}ar\`{o} & \baseverb{}acevo     \\
+            you                 & lei / tu  & \baseverb{}ai       & hai \baseverb{}atto     & \baseverb{}arai    & \baseverb{}acevi     \\
+            he / she            & lui / lei & \baseverb{}a       & ha \baseverb{}atto      & \baseverb{}ar\`{a} & \baseverb{}aceva     \\
+            we                  & noi       & \baseverb{}acciamo    & abbiamo \baseverb{}atto & \baseverb{}aremo   & \baseverb{}acevamo   \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}ate     & avete \baseverb{}atto   & \baseverb{}arete   & \baseverb{}acevate   \\
+            they                & loro      & \baseverb{}anno     & hanno \baseverb{}atto   & \baseverb{}aranno  & \baseverb{}acevano   \\
+        \end{tabular}
+
+        \captionof{table}{condizionale - possiblity i.e. "would"}
+        \begin{tabular}{llll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato}\\
+            \hline
+            I                   & io        & \baseverb{}arei    & avrei \baseverb{}atto   \\
+            you                 & lei / tu  & \baseverb{}aresti  & avresti \baseverb{}atto \\
+            he / she            & lui / lei & \baseverb{}arebbe  & avrebbe \baseverb{}atto \\
+            we                  & noi       & \baseverb{}aremmo  & avremmo \baseverb{}atto \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}areste  & avreste \baseverb{}atto \\
+            they                & loro      & \baseverb{}arebbero& avrebbero \baseverb{}atto\\
+        \end{tabular}
+
+        \captionof{table}{congiuntivo - doubts, hopes, polite requests i.e. "could"}
+        \begin{tabular}{lllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato} & \textbf{imperfetto}\\
+            \hline
+            I                   & io        & \baseverb{}accia       & abbia \baseverb{}atto   & \baseverb{}acessi \\
+            you                 & lei / tu  & \baseverb{}accia       & abbia \baseverb{}atto   & \baseverb{}acessi \\
+            he / she            & lui / lei & \baseverb{}accia       & abbia \baseverb{}atto   & \baseverb{}acesse \\
+            we                  & noi       & \baseverb{}acciamo    & abbiamo \baseverb{}atto & \baseverb{}acessimo \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}acciate    & abbiate \baseverb{}atto & \baseverb{}aceste \\
+            they                & loro      & \baseverb{}acciano     & abbiano \baseverb{}atto & \baseverb{}acessero \\
+        \end{tabular}
+
+        \captionof{table}{imperativo - commands, orders}
+        \begin{tabular}{lll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} \\
+            \hline
+            you                 & lei / tu  & \baseverb{}ai \\
+            he / she            & lui / lei & \baseverb{}accia \\
+            we                  & noi       & \baseverb{}acciamo \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}ate \\
+            they                & loro      & \baseverb{}acciano \\
+        \end{tabular}
+
+    \end{center}
+\end{document}

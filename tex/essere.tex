@@ -1,0 +1,72 @@
+\documentclass{article} % Standard layout
+\usepackage[paper=a4paper,margin=20mm]{geometry} % A4 with 20mm margin. Use "showframe" to show borders
+\usepackage{capt-of} % Simple custom captions
+\usepackage{lmodern} % Modern Latin font family for scalable fonts
+
+\usepackage{draftwatermark}
+\SetWatermarkText{github.com/jlmurdoch}
+\SetWatermarkFontSize{64pt}
+\SetWatermarkColor[gray]{0.85}
+
+\newcommand{\baseverb}{ess}
+
+\begin{document}
+    \section*{\baseverb{}ere}
+    
+    \begin{center}
+        \captionof{table}{modo indefiniti - no subject}
+        \begin{tabular}{llll}
+            \textbf{infinito} & \textbf{participio presente} & \textbf{participio passato} & \textbf{gerundio} \\
+            \hline
+            \baseverb{}ere & \baseverb{}ente & stato/a & \baseverb{}endo \\
+        \end{tabular}
+
+        \captionof{table}{indicativo - real, actual}
+        \begin{tabular}{llllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{present} & \textbf{passato prossimo} & \textbf{futuro} & \textbf{imperfetto} \\
+            \hline
+            I                   & io        & sono  & sono stato/a  & sar\`{o} & ero     \\
+            you                 & lei / tu  & sei   & sei stato/a   & sarai    & eri     \\
+            he / she            & lui / lei & \`{e} & \`{e} stato/a & sar\`{a} & era     \\
+            we                  & noi       & siamo & siamo stati/e & saremo   & eravamo \\ 
+            you \textit{(pl.)}  & voi       & siete & siete stati/e & sarete   & eravate \\
+            they                & loro      & sono  & sono stati/e  & saranno  & erano   \\
+        \end{tabular}
+
+        \captionof{table}{condizionale - possiblity i.e. "would"}
+        \begin{tabular}{llll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato}\\
+            \hline
+            I                   & io        & sarei     & sarei stato/a   \\
+            you                 & lei / tu  & saresti   & saresti stato/a \\
+            he / she            & lui / lei & sarebbe   & sarebbe stato/a \\
+            we                  & noi       & saremmo   & saremmo stati/e \\ 
+            you \textit{(pl.)}  & voi       & sareste   & sareste stati/e \\
+            they                & loro      & sarebbero & sarebbero stati/e\\
+        \end{tabular}
+
+        \captionof{table}{congiuntivo - doubts, hopes, polite requests i.e. "could"}
+        \begin{tabular}{lllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato} & \textbf{imperfetto}\\
+            \hline
+            I                   & io        & sia       & sia stato/a   & fossi \\
+            you                 & lei / tu  & sia       & sia stato/a   & fossi \\
+            he / she            & lui / lei & sia       & sia stato/a   & fosse \\
+            we                  & noi       & siamo     & siamo stati/e & fossimo \\ 
+            you \textit{(pl.)}  & voi       & siate     & siate stati/e & foste \\
+            they                & loro      & siano     & siano stati/e & fossero \\
+        \end{tabular}
+
+        \captionof{table}{imperativo - commands, orders}
+        \begin{tabular}{lll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} \\
+            \hline
+            you                 & lei / tu  & sii \\
+            he / she            & lui / lei & sia \\
+            we                  & noi       & siamo \\ 
+            you \textit{(pl.)}  & voi       & siate \\
+            they                & loro      & siano \\
+        \end{tabular}
+
+    \end{center}
+\end{document}

@@ -1,0 +1,72 @@
+\documentclass{article} % Standard layout
+\usepackage[paper=a4paper,margin=20mm]{geometry} % A4 with 20mm margin. Use "showframe" to show borders
+\usepackage{capt-of} % Simple custom captions
+\usepackage{lmodern} % Modern Latin font family for scalable fonts
+
+\usepackage{draftwatermark}
+\SetWatermarkText{github.com/jlmurdoch}
+\SetWatermarkFontSize{64pt}
+\SetWatermarkColor[gray]{0.85}
+
+\newcommand{\baseverb}{av}
+
+\begin{document}
+    \section*{\baseverb{}ere}
+
+    \begin{center}
+        \captionof{table}{modo indefiniti - no subject}
+        \begin{tabular}{llll}
+            \textbf{infinito} & \textbf{participio presente} & \textbf{participio passato} & \textbf{gerundio} \\
+            \hline
+            \baseverb{}ere & \baseverb{}ente & \baseverb{}uto & \baseverb{}endo \\
+        \end{tabular}
+
+        \captionof{table}{indicativo - real, actual}
+        \begin{tabular}{llllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{present} & \textbf{passato prossimo} & \textbf{futuro} & \textbf{imperfetto} \\
+            \hline
+            I                   & io        & ho             & ho \baseverb{}uto      & \baseverb{}r\`{o} & \baseverb{}evo     \\
+            you                 & lei / tu  & hai            & hai \baseverb{}uto     & \baseverb{}rai    & \baseverb{}evi     \\
+            he / she            & lui / lei & ha             & ha \baseverb{}uto      & \baseverb{}r\`{a} & \baseverb{}eva     \\
+            we                  & noi       & abbiamo        & abbiamo \baseverb{}uto & \baseverb{}remo   & \baseverb{}evamo   \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}ete & avete \baseverb{}uto   & \baseverb{}rete   & \baseverb{}evate   \\
+            they                & loro      & hanno          & hanno \baseverb{}uto   & \baseverb{}ranno  & \baseverb{}evano   \\
+        \end{tabular}
+
+        \captionof{table}{condizionale - possiblity i.e. "would"}
+        \begin{tabular}{llll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato}\\
+            \hline
+            I                   & io        & \baseverb{}rei    & avrei \baseverb{}uto   \\
+            you                 & lei / tu  & \baseverb{}resti  & avresti \baseverb{}uto \\
+            he / she            & lui / lei & \baseverb{}rebbe  & avrebbe \baseverb{}uto \\
+            we                  & noi       & \baseverb{}remmo  & avremmo \baseverb{}uto \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}reste  & avreste \baseverb{}uto \\
+            they                & loro      & \baseverb{}rebbero& avrebbero \baseverb{}uto\\
+        \end{tabular}
+
+        \captionof{table}{congiuntivo - doubts, hopes, polite requests i.e. "could"}
+        \begin{tabular}{lllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato} & \textbf{imperfetto}\\
+            \hline
+            I                   & io        & abbia       & abbia \baseverb{}uto   & \baseverb{}essi \\
+            you                 & lei / tu  & abbia       & abbia \baseverb{}uto   & \baseverb{}essi \\
+            he / she            & lui / lei & abbia       & abbia \baseverb{}uto   & \baseverb{}esse \\
+            we                  & noi       & abbiamo     & abbiamo \baseverb{}uto & \baseverb{}essimo \\ 
+            you \textit{(pl.)}  & voi       & abbiate     & abbiate \baseverb{}uto & \baseverb{}este \\
+            they                & loro      & abbiano     & abbiano \baseverb{}uto & \baseverb{}essero \\
+        \end{tabular}
+
+        \captionof{table}{imperativo - commands, orders}
+        \begin{tabular}{lll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} \\
+            \hline
+            you                 & lei / tu  & abbi \\
+            he / she            & lui / lei & abbia \\
+            we                  & noi       & abbiamo \\ 
+            you \textit{(pl.)}  & voi       & abbiate \\
+            they                & loro      & abbiano \\
+        \end{tabular}
+
+    \end{center}
+\end{document}

@@ -1,0 +1,72 @@
+\documentclass{article} % Standard layout
+\usepackage[paper=a4paper,margin=20mm]{geometry} % A4 with 20mm margin. Use "showframe" to show borders
+\usepackage{capt-of} % Simple custom captions
+\usepackage{lmodern} % Modern Latin font family for scalable fonts
+
+\usepackage{draftwatermark}
+\SetWatermarkText{github.com/jlmurdoch}
+\SetWatermarkFontSize{64pt}
+\SetWatermarkColor[gray]{0.85}
+
+\newcommand{\baseverb}{lav}
+
+\begin{document}
+    \section*{\baseverb{}arsi}
+
+    \begin{center}
+        \captionof{table}{modo indefiniti - no subject}
+        \begin{tabular}{llll}
+            \textbf{infinito} & \textbf{participio presente} & \textbf{participio passato} & \textbf{gerundio} \\
+            \hline
+            \baseverb{}arsi & \baseverb{}tesi & \baseverb{}ato/a & \baseverb{}dosi \\
+        \end{tabular}
+
+        \captionof{table}{indicativo - real, actual}
+        \begin{tabular}{llllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{present} & \textbf{passato prossimo} & \textbf{futuro} & \textbf{imperfetto} \\
+            \hline
+            I                   & io mi        & \baseverb{}o      & sono \baseverb{}ato/a  & \baseverb{}er\`{o} & \baseverb{}avo \\
+            you                 & lei / tu ti  & \baseverb{}i      & sei \baseverb{}ato/a   & \baseverb{}erai    & \baseverb{}avi \\
+            he / she            & lui / lei si & \baseverb{}a      & \`{e} \baseverb{}ato/a & \baseverb{}er\`{a} & \baseverb{}ava \\
+            we                  & noi ci       & \baseverb{}iamo   & siamo \baseverb{}ati/e & \baseverb{}eremo   & \baseverb{}avamo \\ 
+            you \textit{(pl.)}  & voi vi       & \baseverb{}ate    & siete \baseverb{}ati/e & \baseverb{}erete   & \baseverb{}avate \\
+            they                & loro si      & \baseverb{}ano    & sono \baseverb{}ati/e  & \baseverb{}eranno  & \baseverb{}avano \\
+        \end{tabular}
+
+        \captionof{table}{condizionale - possiblity i.e. "would"}
+        \begin{tabular}{llll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato}\\
+            \hline
+            I                   & io mi        & \baseverb{}erei    & sarei \baseverb{}ato/a   \\
+            you                 & lei / tu ti  & \baseverb{}eresti  & saresti \baseverb{}ato/a \\
+            he / she            & lui / lei si & \baseverb{}erebbe  & sarebbe \baseverb{}ato/a \\
+            we                  & noi ci       & \baseverb{}eremmo  & saremmo \baseverb{}ati/e \\ 
+            you \textit{(pl.)}  & voi vi       & \baseverb{}ereste  & sareste \baseverb{}ati/e \\
+            they                & loro si      & \baseverb{}erebbero& sarebbero \baseverb{}ati/e\\
+        \end{tabular}
+
+        \captionof{table}{congiuntivo - doubts, hopes, polite requests i.e. "could"}
+        \begin{tabular}{lllll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} & \textbf{passato} & \textbf{imperfetto}\\
+            \hline
+            I                   & io mi        & \baseverb{}i       & sia \baseverb{}ato/a   & \baseverb{}assi \\
+            you                 & lei / tu ti  & \baseverb{}i       & sia \baseverb{}ato/a   & \baseverb{}assi \\
+            he / she            & lui / lei si & \baseverb{}i       & sia \baseverb{}ato/a   & \baseverb{}asse \\
+            we                  & noi ci       & \baseverb{}iamo    & siamo \baseverb{}ati/e & \baseverb{}assimo \\ 
+            you \textit{(pl.)}  & voi vi       & \baseverb{}iate    & siate \baseverb{}ati/e & \baseverb{}aste \\
+            they                & loro si      & \baseverb{}ino     & siano \baseverb{}ati/e & \baseverb{}assero \\
+        \end{tabular}
+
+        \captionof{table}{imperativo - commands, orders}
+        \begin{tabular}{lll}
+            \textbf{pronoun} & \textbf{pronomi} & \textbf{presente} \\
+            \hline
+            you                 & lei / tu  & \baseverb{}ati \\
+            he / she            & lui / lei & si \baseverb{}i \\
+            we                  & noi       & \baseverb{}iamoci \\ 
+            you \textit{(pl.)}  & voi       & \baseverb{}evi \\
+            they                & loro      & si \baseverb{}ino \\
+        \end{tabular}
+
+    \end{center}
+\end{document}
